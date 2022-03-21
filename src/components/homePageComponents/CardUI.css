@@ -1,0 +1,33 @@
+.card {
+    width: 15rem;
+    height: 25rem;
+}
+
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.card-body {
+    padding: 1rem 0;
+    color: rgb(53, 11, 243);
+}
+
+.card-text {
+    padding: 0.4rem 1.9rem;
+}
+
+.container-fluid .row {
+    padding-top: 3rem;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+.card-img-top {
+    transform: scale(1);
+}
+
+.card-img-top:hover {
+    transform: scale(1.1);
+}
